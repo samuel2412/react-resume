@@ -11,7 +11,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import MenuIcon from '@material-ui/icons/Menu';
 
-import grey from '@material-ui/core/colors/grey';
+import lightBlue from '@material-ui/core/colors/lightBlue';
 import blueGrey from '@material-ui/core/colors/blueGrey';
 
 import Button from '../../../UI/Button/Button';
@@ -24,6 +24,7 @@ const useStyles = makeStyles(theme => ({
             display: 'flex',
             backgroundColor: 'transparent',
             padding: theme.spacing(2),
+            position: 'fixed'
         },
     },
     list: {
@@ -83,8 +84,8 @@ const SideDrawer = props => {
              borderRadius= {'4px'}
              height= {'40px'}
              width= {'40px'}
-             firstColor= {grey[800]}
-             secondColor= {blueGrey[500]}
+             firstColor= {lightBlue[100]}
+             secondColor= {lightBlue[200]}
              zIndex= {'5'}
             >
                 <MenuIcon />

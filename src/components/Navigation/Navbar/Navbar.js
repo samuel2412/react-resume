@@ -34,7 +34,7 @@ const Navbar = props => {
             <div className={classes.root}>
                 
                 <SideDrawer/>
-                <AppBar position="static" className={classes.appbar} >
+                <AppBar position="fixed" className={classes.appbar} >
                     <Toolbar>
                         <div className={classes.buttonGroup}>
                             <Button color="inherit">Default</Button>
