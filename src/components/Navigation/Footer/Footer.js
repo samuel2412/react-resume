@@ -26,7 +26,8 @@ const useStyles = makeStyles(theme => ({
     root: {
         display: 'flex',
         flex: 1,
-        flexDirection: 'column'
+        flexDirection: 'column',
+        backgroundColor: grey[800],
     },
     footer: {
         backgroundColor: grey[900],
@@ -44,7 +45,7 @@ const Footer = props => {
              borderRadius= {'25px'}
              height= {'50px'}
              width= {'50px'}
-             firstColor= {grey[800]}
+             firstColor= {grey[700]}
              secondColor= {blueGrey[500]}
              marginBottom= {'-25px'}
              marginLeft= {'auto'}

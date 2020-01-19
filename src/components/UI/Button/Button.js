@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 
-
-
-
 const Button = props => {
     const [buttonStyle, setButtonStyle] = useState({
         ...props.style,
@@ -15,7 +12,7 @@ const Button = props => {
         marginLeft: props.marginLeft,
         marginRight: props.marginLeft,
         zIndex: props.zIndex,
-        WebkitTransition: '500ms linear', 
+        WebkitTransition: '500ms linear',
     })
 
 
@@ -35,13 +32,15 @@ const Button = props => {
     }
 
     return (
-        <button style={buttonStyle}
-        onClick={props.onClick}
-            onMouseEnter={(event) => changeButtonStyle(event)}
-            onMouseLeave={(event) => changeButtonStyle(event)}
-        >
-            {props.children}
-        </button >
+        
+            <button style={buttonStyle}
+                onClick={props.onClick}
+                onMouseEnter={(event) => changeButtonStyle(event)}
+                onMouseLeave={(event) => changeButtonStyle(event)}
+            >
+                {props.children}
+            </button >
+      
     );
 
 }

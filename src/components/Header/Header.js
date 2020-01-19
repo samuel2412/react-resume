@@ -35,10 +35,11 @@ const useStyles = makeStyles(theme => ({
     iconsGroup: {
         display: 'flex',
         justifyContent: 'space-around',
-},
+        marginTop: theme.spacing(2)
+    },
     a: {
-    color: 'inherit'
-},
+        color: 'inherit'
+    },
 }));
 
 const Header = props => {
@@ -79,14 +80,16 @@ const Header = props => {
             direction="row"
             justify="center"
             alignItems="center"
-            className={classes.root}>
+            className={classes.root}
+            alt={'Photo by Mazhar Zandsalimi on Unsplash'}
+        >
             <div className={classes.content}>
 
                 <Typography className={classes.headline} variant="h2" gutterBottom>
                     Samuel Alves de Almeida
-                 </Typography>
-
+                </Typography>
                 <Divider variant="middle" style={{ backgroundColor: '#fff' }} />
+
 
                 <div className={classes.iconsGroup}>
                     <a href='mailto:samuel241296@hotmail.com' className={classes.a}>
