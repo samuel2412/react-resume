@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
         height: '40%'
     },
 
-    
+
 }));
 
 const PortfolioCard = props => {
@@ -40,24 +40,25 @@ const PortfolioCard = props => {
     return (
         <Paper className={classes.root}>
             <div className={classes.content}>
-                <CardMedia
-                    className={classes.preview}
-                    component="img"
-                    alt={props.title}
-                    image={props.src}
-                    title={props.title}
-                />
-
+                <a href={props.url}>
+                    <CardMedia
+                        className={classes.preview}
+                        component="img"
+                        alt={props.title}
+                        image={props.src}
+                        title={props.title}
+                    />
+                </a>
                 <div className={classes.text}>
                     <Typography className={classes.subtitle} variant="h5" component='h5'>
                         {props.title}
-                        </Typography>
+                    </Typography>
                     <Typography variant="overline" component='p' gutterBottom>
-                       {props.date}
-                        </Typography>
-                    
-                        {props.children}
-                   
+                        {props.date}
+                    </Typography>
+
+                    {props.children}
+
                 </div>
             </div>
         </Paper>

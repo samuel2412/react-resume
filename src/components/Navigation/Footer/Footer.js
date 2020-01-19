@@ -6,6 +6,7 @@ import blueGrey from '@material-ui/core/colors/blueGrey';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import Link from '@material-ui/core/Link';
 
+
 import Button from '../../UI/Button/Button';
 
 
@@ -37,20 +38,25 @@ const useStyles = makeStyles(theme => ({
 
 const Footer = props => {
     const classes = useStyles();
-    
+
+    const scrollToTop = () => {
+        window.scroll({ top: 0, behavior: 'smooth' });
+      }
+
     return (
         <div className={classes.root}>
             <Button
-             border={'none'}
-             borderRadius= {'25px'}
-             height= {'50px'}
-             width= {'50px'}
-             firstColor= {grey[700]}
-             secondColor= {blueGrey[500]}
-             marginBottom= {'-25px'}
-             marginLeft= {'auto'}
-             marginRight= {'auto'}
-             zIndex= {'5'}
+                onClick={() => scrollToTop()}
+                border={'none'}
+                borderRadius={'25px'}
+                height={'50px'}
+                width={'50px'}
+                firstColor={grey[700]}
+                secondColor={blueGrey[500]}
+                marginBottom={'-25px'}
+                marginLeft={'auto'}
+                marginRight={'auto'}
+                zIndex={'5'}
             >
                 <ExpandLessIcon />
             </Button >

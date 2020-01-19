@@ -63,13 +63,6 @@ const Portfolio = props => {
     const classes = useStyles();
 
 
-
-    //https://shielded-spire-68979.herokuapp.com/index.jsp
-    //https://frozen-ridge-71151.herokuapp.com/
-    //http://fierce-island-38673.herokuapp.com/
-    //https://pokedex-react-samuel2412.netlify.com/
-    //https://react-myburger-c854a.firebaseapp.com/
-    //https://react-gamedb.firebaseapp.com/
     return (
         <div className={classes.root}>
             <div className={classes.content}>
@@ -82,7 +75,8 @@ const Portfolio = props => {
                 <div className={classes.text}>
 
 
-                    <PortfolioCard title='GameDB' src='/gamedb.jpg' date='jan de 2020'>
+                    <PortfolioCard title='GameDB' url='https://react-gamedb.firebaseapp.com/'
+                    src='/gamedb.jpg' date='jan de 2020'>
                         <Typography variant="body1" component='p' gutterBottom>
                             Game DataBase, permite ao usuário pesquisar por jogos,
                             ver seus detalhes e marca-los como favorito ou concluído.
@@ -102,7 +96,8 @@ const Portfolio = props => {
                         </a>
                     </PortfolioCard>
 
-                    <PortfolioCard title='Burger Builder' src='/burgerBuilder.jpg' date='dez de 2019 – jan de 2020'>
+                    <PortfolioCard title='Burger Builder' url='https://react-myburger-c854a.firebaseapp.com/'
+                     src='/burgerBuilder.jpg' date='dez de 2019 – jan de 2020'>
                         <Typography variant="body1" component='p' gutterBottom>
                             Aplicação que permite ao usuário selecionar os ingredientes que ele deseja em seu hambúrguer e realizar o pedido.
                         </Typography>
@@ -116,7 +111,8 @@ const Portfolio = props => {
                         </a>
                     </PortfolioCard>
 
-                    <PortfolioCard title='Pokedex' src='/pokedex.jpg' date='set de 2019 – dez de 2019'>
+                    <PortfolioCard title='Pokedex' url='https://pokedex-react-samuel2412.netlify.com/'
+                    src='/pokedex.jpg' date='set de 2019 – dez de 2019'>
                         <Typography variant="body1" component='p' gutterBottom>
                             Aplicação desenvolvida com ReactJS que exibe uma lista de pokemons, permitindo ao usuário
                             pesquisar e visualizar os detalhes do pokemon desejado.
@@ -133,7 +129,8 @@ const Portfolio = props => {
                     </PortfolioCard>
 
 
-                    <PortfolioCard title='Site de e-commerce' src='/ecommerce.jpg' date='set de 2019'>
+                    <PortfolioCard title='Site de e-commerce' url='http://fierce-island-38673.herokuapp.com/'
+                    src='/ecommerce.jpg' date='set de 2019'>
                         <Typography variant="body1" component='p' gutterBottom>
                             Projeto construído usando SpringMVC, Hibernate, Java, JPA, JSP, Bootstrap, etc.
                             </Typography>
@@ -148,7 +145,8 @@ const Portfolio = props => {
                     </PortfolioCard>
 
 
-                    <PortfolioCard title='Financiamento de Experimentos' src='/experimento.jpg' date='set de 2019'>
+                    <PortfolioCard title='Financiamento de Experimentos' url='https://frozen-ridge-71151.herokuapp.com/'
+                    src='/experimento.jpg' date='set de 2019'>
                         <Typography variant="body1" component='p' gutterBottom>
                             Projeto construído usando SpringMVC, Hibernate, Java, JPA, JSP, Bootstrap, etc.
                             </Typography>
