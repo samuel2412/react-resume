@@ -49,7 +49,7 @@ const Portifolio = props => {
         <div className={classes.root}>
             <div className={classes.content}>
                 <Typography className={classes.title} variant='subtitle1' gutterBottom>
-                    Portifolio
+                    Portifólio
                     </Typography>
             </div>
             <div className={classes.content}>

@@ -5,14 +5,11 @@ import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import Divider from '@material-ui/core/Divider';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import MenuIcon from '@material-ui/icons/Menu';
-
 import lightBlue from '@material-ui/core/colors/lightBlue';
 import blueGrey from '@material-ui/core/colors/blueGrey';
+import * as Scroll from 'react-scroll';
 
 import Button from '../../../UI/Button/Button';
 
@@ -40,6 +37,7 @@ const useStyles = makeStyles(theme => ({
 const SideDrawer = props => {
     const classes = useStyles();
     const [state, setState] = useState(false);
+    const Link = Scroll.Link;
 
     const toggleDrawer = (open) => event => {
         if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
@@ -57,37 +55,60 @@ const SideDrawer = props => {
             onKeyDown={toggleDrawer(false)}
         >
             <List>
-
-                {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-                    <ListItem button key={text}>
-                        <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-                        <ListItemText primary={text} />
+                <Link to="home" onClick={toggleDrawer(false)} smooth={true} duration={500} offset={0}>
+                    <ListItem button >
+                        <ListItemText primary='Home' />
                     </ListItem>
-                ))}
-            </List>
-            <Divider />
-            <List>
-                {['All mail', 'Trash', 'Spam'].map((text, index) => (
-                    <ListItem button key={text}>
-                        <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-                        <ListItemText primary={text} />
+                </Link>
+                <Divider />
+                <Link to="about" onClick={toggleDrawer(false)} smooth={true} duration={500} offset={0}>
+                    <ListItem button >
+                        <ListItemText primary='Sobre' />
                     </ListItem>
-                ))}
+                </Link>
+                <Divider />
+                <Link to="work" onClick={toggleDrawer(false)} smooth={true} duration={500} offset={0}>
+                    <ListItem button >
+                        <ListItemText primary='Profissional' />
+                    </ListItem>
+                </Link>
+                <Divider />
+                <Link to="education" onClick={toggleDrawer(false)} smooth={true} duration={500} offset={0}>
+                    <ListItem button >
+                        <ListItemText primary='Educação' />
+                    </ListItem>
+                </Link>
+                <Divider />
+                <Link to="skill" onClick={toggleDrawer(false)} smooth={true} duration={500} offset={0}>
+                    <ListItem button >
+                        <ListItemText primary='Habilidades' />
+                    </ListItem>
+                </Link>
+                <Divider />
+
+                <Link to="portfolio"  onClick={toggleDrawer(false)} smooth={true} duration={500} offset={0}>
+                    <ListItem button >
+                        <ListItemText primary='Portifólio' />
+                    </ListItem>
+                </Link>
+
+                <Divider />
 
             </List>
+
         </div>
     );
     return (
         <div className={classes.root}>
             <Button
-             border={'none'}
-             borderRadius= {'4px'}
-             height= {'40px'}
-             width= {'40px'}
-             firstColor= {lightBlue[100]}
-             secondColor= {lightBlue[200]}
-             zIndex= {'5'}
-             onClick={toggleDrawer(true)}
+                border={'none'}
+                borderRadius={'4px'}
+                height={'40px'}
+                width={'40px'}
+                firstColor={lightBlue[100]}
+                secondColor={lightBlue[200]}
+                zIndex={'5'}
+                onClick={toggleDrawer(true)}
             >
                 <MenuIcon />
             </Button >
