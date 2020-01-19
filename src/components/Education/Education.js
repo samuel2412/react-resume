@@ -41,14 +41,14 @@ const useStyles = makeStyles(theme => ({
     }
 }));
 
-const Work = props => {
+const Education = props => {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
             <div className={classes.content}>
                 <Typography className={classes.title} variant='subtitle1' gutterBottom>
-                    Profissional
+                    Educação
                     </Typography>
             </div>
             <div className={classes.content}>
@@ -80,4 +80,4 @@ const Work = props => {
         </div>
     );
 }
-export default Work;
+export default Education;

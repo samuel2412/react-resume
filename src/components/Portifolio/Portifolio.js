@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import { makeStyles } from '@material-ui/core/styles';
 import blueGrey from '@material-ui/core/colors/blueGrey';
-
+import grey from '@material-ui/core/colors/grey';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -12,6 +12,7 @@ const useStyles = makeStyles(theme => ({
         flex: 1,
         flexDirection: 'row',
         padding: theme.spacing(3),
+        backgroundColor: grey[800],
         [theme.breakpoints.down('800')]: {
             flexDirection: 'column',
         },
@@ -41,14 +42,14 @@ const useStyles = makeStyles(theme => ({
     }
 }));
 
-const Work = props => {
+const Portifolio = props => {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
             <div className={classes.content}>
                 <Typography className={classes.title} variant='subtitle1' gutterBottom>
-                    Profissional
+                    Portifolio
                     </Typography>
             </div>
             <div className={classes.content}>
@@ -80,4 +81,4 @@ const Work = props => {
         </div>
     );
 }
-export default Work;
+export default Portifolio;
