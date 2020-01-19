@@ -36,6 +36,7 @@ const Button = props => {
 
     return (
         <button style={buttonStyle}
+        onClick={props.onClick}
             onMouseEnter={(event) => changeButtonStyle(event)}
             onMouseLeave={(event) => changeButtonStyle(event)}
         >

@@ -87,6 +87,7 @@ const SideDrawer = props => {
              firstColor= {lightBlue[100]}
              secondColor= {lightBlue[200]}
              zIndex= {'5'}
+             onClick={toggleDrawer(true)}
             >
                 <MenuIcon />
             </Button >
