@@ -43,8 +43,8 @@ const AboutMe = props => {
     return (
         <div className={classes.root}>
             <div className={classes.content}>
-                <Avatar alt="Avatar"
-                    src='/profile.png'
+                <Avatar alt="Samuel Alves de Almeida"
+                    src='https://firebasestorage.googleapis.com/v0/b/react-resume-samuel.appspot.com/o/profile.png?alt=media&token=00eb5548-cad0-4b0a-ae6d-aeaa4d8643dd'
                     className={classes.avatar} />
             </div>
             <div className={classes.content}>
