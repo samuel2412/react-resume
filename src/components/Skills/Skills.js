@@ -81,8 +81,6 @@ const Skills = props => {
 
         ]
 
-    console.log(skills)
-
     return (
         <div className={classes.root}>
             <div className={classes.content}>

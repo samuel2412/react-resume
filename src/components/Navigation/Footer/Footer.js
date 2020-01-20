@@ -6,22 +6,15 @@ import blueGrey from '@material-ui/core/colors/blueGrey';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import Link from '@material-ui/core/Link';
 
-
+import Contact from '../../Contact/Contact';
 import Button from '../../UI/Button/Button';
 
 
-const Copyright = () => {
+/* const Copyright = () => {
     return (
-        <div>
-            <Typography variant="body2" align="center">
-                {'Developer '}
-                <Link color="inherit" href="https://github.com/samuel2412">
-                    GitHub
-      </Link>{'.'}
-            </Typography>
-        </div>
+        
     );
-}
+} */
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -41,7 +34,7 @@ const Footer = props => {
 
     const scrollToTop = () => {
         window.scroll({ top: 0, behavior: 'smooth' });
-      }
+    }
 
     return (
         <div className={classes.root}>
@@ -61,13 +54,14 @@ const Footer = props => {
                 <ExpandLessIcon />
             </Button >
             <div className={classes.footer}>
-                <Typography variant="h6" align="center" gutterBottom >
-                    Resume
-        </Typography>
-                <Typography variant="subtitle1" align="center" component="p">
-                    Application developed using ReactJS
-        </Typography>
-                <Copyright />
+
+                <Contact width='50%' />
+                <br />
+                <Typography style={{color:'#fff'}} variant="subtitle1" align="center" component="p">
+                    Este site foi desenvolvido em ReactJS
+                 </Typography>
+                <div>
+                </div>
             </div>
         </div>
     );
