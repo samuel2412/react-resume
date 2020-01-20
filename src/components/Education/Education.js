@@ -54,27 +54,20 @@ const Education = props => {
             <div className={classes.content}>
                 <div className={classes.text}>
                     <Typography className={classes.subtitle} variant="h5" component='h5'>
-                        Lorem ipsum
+                        Universidade São Judas Tadeu
                         </Typography>
                     <Typography variant="overline" component='p' gutterBottom>
-                        Senior Software Engineer (Team Lead) •  Feb 2017 - Jun 2018
+                        Bacharelado em Ciência da Computação •  2015 - 2019
                         </Typography>
-                    <Typography variant="body1" component='p' gutterBottom>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in cursus dolor. Vestibulum enim quam, egestas in ex ut, consequat ornare elit. Proin finibus augue id aliquam aliquet. Nunc luctus libero sed dolor dictum, dictum lobortis lorem feugiat. Nulla pretium sagittis accumsan. Morbi pellentesque magna massa. Pellentesque eu ex urna.
-                    </Typography>
-
+                    
                     <Divider variant="middle" />
 
                     <Typography className={classes.subtitle} variant="h5" component='h5'>
-                        Lorem ipsum
+                        ETEC Martin Luther King
                         </Typography>
                     <Typography variant="overline" component='p' gutterBottom>
-                        Senior Software Engineer (Team Lead) •  Feb 2017 - Jun 2018
+                        Ensino Técnico integrado ao Médio • Técnico em Marketing • 2012 - 2014
                         </Typography>
-                    <Typography variant="body1" component='p' gutterBottom>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in cursus dolor. Vestibulum enim quam, egestas in ex ut, consequat ornare elit. Proin finibus augue id aliquam aliquet. Nunc luctus libero sed dolor dictum, dictum lobortis lorem feugiat. Nulla pretium sagittis accumsan. Morbi pellentesque magna massa. Pellentesque eu ex urna.
-                    </Typography>
-
                 </div>
             </div>
         </div>
