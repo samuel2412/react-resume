@@ -12,7 +12,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = makeStyles(theme => ({
     root: {
-        backgroundImage: 'url("/background.jpg")',
+        backgroundImage: 'url("https://firebasestorage.googleapis.com/v0/b/react-resume-samuel.appspot.com/o/background.jpg?alt=media&token=31c31e08-b4f7-409c-b3b3-20f75e9e6bc1")',
         backgroundRepeat: 'no-repeat',
         backgroundPositionX: 'center',
         backgroundPositionY: 'top',
