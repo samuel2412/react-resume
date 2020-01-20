@@ -54,26 +54,26 @@ const Work = props => {
             <div className={classes.content}>
                 <div className={classes.text}>
                     <Typography className={classes.subtitle} variant="h5" component='h5'>
-                        Lorem ipsum
+                        Marão Entretenimento, Cultura e Comércio Varegista de Revistas, Livros, Brinquedos, Dvds e Jornais Ltda
                         </Typography>
                     <Typography variant="overline" component='p' gutterBottom>
-                        Senior Software Engineer (Team Lead) •  Feb 2017 - Jun 2018
+                        Desenvolvedor java júnior •  Jan 2019 - Dez 2019
                         </Typography>
                     <Typography variant="body1" component='p' gutterBottom>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in cursus dolor. Vestibulum enim quam, egestas in ex ut, consequat ornare elit. Proin finibus augue id aliquam aliquet. Nunc luctus libero sed dolor dictum, dictum lobortis lorem feugiat. Nulla pretium sagittis accumsan. Morbi pellentesque magna massa. Pellentesque eu ex urna.
+                    Desenvolvimento e manutenção de sistemas para gestão empresarial utilizando Java, JSP, Spring Framework e bancos de dados Mysql.
                     </Typography>
 
                     <Divider variant="middle" />
 
                     <Typography className={classes.subtitle} variant="h5" component='h5'>
-                        Lorem ipsum
+                        Marão Entretenimento, Cultura e Comércio Varegista de Revistas, Livros, Brinquedos, Dvds e Jornais Ltda
                         </Typography>
                     <Typography variant="overline" component='p' gutterBottom>
-                        Senior Software Engineer (Team Lead) •  Feb 2017 - Jun 2018
+                        Estagiário em desenvolvimento java •  Fev 2018 - Dez 2018
                         </Typography>
                     <Typography variant="body1" component='p' gutterBottom>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in cursus dolor. Vestibulum enim quam, egestas in ex ut, consequat ornare elit. Proin finibus augue id aliquam aliquet. Nunc luctus libero sed dolor dictum, dictum lobortis lorem feugiat. Nulla pretium sagittis accumsan. Morbi pellentesque magna massa. Pellentesque eu ex urna.
-                    </Typography>
+                        Desenvolvimento e manutenção de sistemas para gestão empresarial utilizando Java, JSP e bancos de dados Mysql.
+                        </Typography>
 
                 </div>
             </div>
