@@ -128,9 +128,9 @@ const Portfolio = props => {
                     Portifólio
                 </Typography>
             </div>
-            <div className={classes.content}>
+            <div className={classes.content} style={{flex: 1}}>
                 <div className={classes.text}>
-                    {isLoading ? <LinearProgress style={{width:'80vw'}}/> : null}
+                    {isLoading ? <LinearProgress/> : null}
 
                     {portfolio}
 

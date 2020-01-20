@@ -1,9 +1,11 @@
 import React from 'react';
 
 import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
 import { makeStyles } from '@material-ui/core/styles';
 import blueGrey from '@material-ui/core/colors/blueGrey';
+import grey from '@material-ui/core/colors/grey';
+
+import Bar from './Bar/Bar';
 
 
 const useStyles = makeStyles(theme => ({
@@ -20,6 +22,10 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
         flexDirection: 'column',
     },
+    text: {
+        padding: theme.spacing(3),
+        textAlign: "justify",
+    },
     title: {
         textAlign: "justify",
         fontWeight: 'bold',
@@ -30,19 +36,52 @@ const useStyles = makeStyles(theme => ({
         borderBottomColor: blueGrey[500],
         borderBottomRightRadius: '3px',
     },
-    text: {
-        padding: theme.spacing(3),
-        textAlign: "justify",
-    },
-    subtitle: {
-        marginTop: theme.spacing(1),
+    skill: {
+        width: '100%',
+        paddingLeft: theme.spacing(2),
+        fontSize: '15px',
         fontWeight: 'bold',
-        letterSpacing: '-1px',
-    }
+        color: '#fff',
+        verticalAlign: 'bottom'
+    },
 }));
 
 const Skills = props => {
     const classes = useStyles();
+    const skills =
+        [
+            {
+                key: 'reactjs',
+                value: '60%'
+            },
+            {
+                key: 'javascript',
+                value: '60%'
+            },
+            {
+                key: 'css',
+                value: '60%'
+            },
+            {
+                key: 'java',
+                value: '70%'
+            },
+            {
+                key: 'spring framework',
+                value: '50%'
+            },
+            {
+                key: 'mysql',
+                value: '70%'
+            },
+            {
+                key: 'mongodb',
+                value: '30%'
+            }
+
+        ]
+
+    console.log(skills)
 
     return (
         <div className={classes.root}>
@@ -51,29 +90,25 @@ const Skills = props => {
                     Habilidades
                     </Typography>
             </div>
-            <div className={classes.content}>
+            <div className={classes.content} style={{flex: 1}}>
                 <div className={classes.text}>
-                    <Typography className={classes.subtitle} variant="h5" component='h5'>
-                        Lorem ipsum
-                        </Typography>
-                    <Typography variant="overline" component='p' gutterBottom>
-                        Senior Software Engineer (Team Lead) •  Feb 2017 - Jun 2018
-                        </Typography>
-                    <Typography variant="body1" component='p' gutterBottom>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in cursus dolor. Vestibulum enim quam, egestas in ex ut, consequat ornare elit. Proin finibus augue id aliquam aliquet. Nunc luctus libero sed dolor dictum, dictum lobortis lorem feugiat. Nulla pretium sagittis accumsan. Morbi pellentesque magna massa. Pellentesque eu ex urna.
-                    </Typography>
 
-                    <Divider variant="middle" />
 
-                    <Typography className={classes.subtitle} variant="h5" component='h5'>
-                        Lorem ipsum
-                        </Typography>
-                    <Typography variant="overline" component='p' gutterBottom>
-                        Senior Software Engineer (Team Lead) •  Feb 2017 - Jun 2018
-                        </Typography>
-                    <Typography variant="body1" component='p' gutterBottom>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in cursus dolor. Vestibulum enim quam, egestas in ex ut, consequat ornare elit. Proin finibus augue id aliquam aliquet. Nunc luctus libero sed dolor dictum, dictum lobortis lorem feugiat. Nulla pretium sagittis accumsan. Morbi pellentesque magna massa. Pellentesque eu ex urna.
-                    </Typography>
+                    {skills.map(skill => (
+                        <React.Fragment key={skill.key}>
+                            <Bar
+                                height='auto'
+                                backColor={grey[500]}
+                                frontColor={grey[800]}
+                                thirdColor={blueGrey[500]}
+                                progress={skill.value}
+                            >
+                                <Typography className={classes.skill} variant="overline" component='p'>
+                                    {skill.key}
+                                </Typography>
+                            </Bar>
+                        </React.Fragment>
+                    ))}
 
                 </div>
             </div>
