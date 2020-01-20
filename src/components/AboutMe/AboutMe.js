@@ -54,23 +54,26 @@ const AboutMe = props => {
                     </Typography>
 
                     <Typography variant="body1" component='p' gutterBottom>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in cursus dolor. Vestibulum enim quam, egestas in ex ut, consequat ornare elit. Proin finibus augue id aliquam aliquet. Nunc luctus libero sed dolor dictum, dictum lobortis lorem feugiat. Nulla pretium sagittis accumsan. Morbi pellentesque magna massa. Pellentesque eu ex urna.
+                        Cientista da Computação, com 2 anos de experiência em back-end com Java
+                        construindo e mantendo desde aplicaçoes para desktop à aplicações RESTful
+                        e clientes JSP para gestão empresarial.
                     </Typography>
                     <Typography variant="body1" component='p' gutterBottom>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in cursus dolor. Vestibulum enim quam, egestas in ex ut, consequat ornare elit. Proin finibus augue id aliquam aliquet. Nunc luctus libero sed dolor dictum, dictum lobortis lorem feugiat. Nulla pretium sagittis accumsan. Morbi pellentesque magna massa. Pellentesque eu ex urna.
+                        A partir da experiência com JSP surgiu o interesse em se aprofundar no desenvolvimento
+                        front-end com tecnologias mais modernas, optando por ReactJS que possibilita o desenvolvimento
+                        mobile com React Native e também a praticidade de se usar apenas JavaScript que abre caminho
+                        para o uso de Node.js no back-end.
                     </Typography>
-                    <Typography variant="body1" component='p' gutterBottom>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in cursus dolor. Vestibulum enim quam, egestas in ex ut, consequat ornare elit. Proin finibus augue id aliquam aliquet. Nunc luctus libero sed dolor dictum, dictum lobortis lorem feugiat. Nulla pretium sagittis accumsan. Morbi pellentesque magna massa. Pellentesque eu ex urna.
-                    </Typography>
+
 
                     <Typography className={classes.about} variant='h5' gutterBottom>
                         Contato
                     </Typography>
-                   
+
                     <Typography variant="body2" component='p' gutterBottom>
                         samuel241296@hotmail.com
                     </Typography>
-                   
+
                 </div>
             </div>
         </div>

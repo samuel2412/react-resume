@@ -67,17 +67,13 @@ const Skills = props => {
                 value: '70%'
             },
             {
-                key: 'spring framework',
+                key: 'spring',
                 value: '50%'
             },
             {
                 key: 'mysql',
                 value: '70%'
             },
-            {
-                key: 'mongodb',
-                value: '30%'
-            }
 
         ]
 

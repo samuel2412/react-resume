@@ -55,7 +55,7 @@ const Footer = props => {
             </Button >
             <div className={classes.footer}>
 
-                <Contact width='50%' />
+                <Contact width='60%' />
                 <br />
                 <Typography style={{color:'#fff'}} variant="subtitle1" align="center" component="p">
                     Este site foi desenvolvido em ReactJS
