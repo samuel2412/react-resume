@@ -55,7 +55,7 @@ const AboutMe = props => {
 
                     <Typography variant="body1" component='p' gutterBottom>
                         Cientista da Computação, com 2 anos de experiência em back-end com Java
-                        construindo e mantendo desde aplicaçoes para desktop à aplicações RESTful
+                        construindo e mantendo desde aplicações para desktop à aplicações RESTful
                         e clientes JSP para gestão empresarial.
                     </Typography>
                     <Typography variant="body1" component='p' gutterBottom>
