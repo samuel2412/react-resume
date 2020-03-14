@@ -60,11 +60,14 @@ const AboutMe = props => {
                     </Typography>
                     <Typography variant="body1" component='p' gutterBottom>
                         A partir da experiência com JSP surgiu o interesse em se aprofundar no desenvolvimento
-                        front-end com tecnologias mais modernas, optando por ReactJS que possibilita o desenvolvimento
+                        front-end com tecnologias mais modernas, como ReactJS e VueJs.
+                       {/*  optando por ReactJS que possibilita o desenvolvimento
                         mobile com React Native e também a praticidade de se usar apenas JavaScript que abre caminho
-                        para o uso de Node.js no back-end.
+                        para o uso de Node.js no back-end. */}
                     </Typography>
-
+                    <Typography variant="body1" component='p' gutterBottom>
+                        Atualmente trabalhando no setor de Real Estate Tech, construindo, mantendo e prestando consultoria de aplicações web e mobile utilizando VueJs.
+                    </Typography>
 
                     <Typography className={classes.about} variant='h5' gutterBottom>
                         Contato

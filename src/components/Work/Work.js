@@ -54,20 +54,31 @@ const Work = props => {
             <div className={classes.content}>
                 <div className={classes.text}>
                     <Typography className={classes.subtitle} variant="h5" component='h5'>
-                        Marão Entretenimento, Cultura e Comércio Varegista de Revistas, Livros, Brinquedos, Dvds e Jornais Ltda
+                        KC TECNOLOGIA, SERVIÇOS IMOBILIÁRIOS E DE INTERNET, EMPREENDIMENTOS E PARTICIPAÇOES LTDA
                         </Typography>
                     <Typography variant="overline" component='p' gutterBottom>
-                        Desenvolvedor java júnior •  Jan 2019 - Dez 2019
+                        Desenvolvedor de front-end •  Mar 2020 - o momento
                         </Typography>
                     <Typography variant="body1" component='p' gutterBottom>
-                    Desenvolvimento e manutenção de sistemas para gestão empresarial utilizando Java, JSP, Spring Framework e bancos de dados Mysql.
+                        Desenvolvimento, manutenção e consultoria de aplicações web e mobile para o setor de Real Estate Tech.
                     </Typography>
 
                     <Divider variant="middle" />
 
                     <Typography className={classes.subtitle} variant="h5" component='h5'>
-                        Marão Entretenimento, Cultura e Comércio Varegista de Revistas, Livros, Brinquedos, Dvds e Jornais Ltda
+                        MARÃO ENTRETERIMENTO, CULTURA E COMÉRCIO VAGERISTA DE REVISTAS, LIVROS, BRINQUEDOS, DVDS E JORNAIS LTDA
                         </Typography>
+                    <Typography variant="overline" component='p' gutterBottom>
+                        Desenvolvedor java júnior •  Jan 2019 - Dez 2019
+                        </Typography>
+                    <Typography variant="body1" component='p' gutterBottom>
+                        Desenvolvimento e manutenção de sistemas para gestão empresarial utilizando Java, JSP, Spring Framework e bancos de dados Mysql.
+                    </Typography>
+
+                    <Divider variant="middle" />
+
+                    <Typography className={classes.subtitle} variant="h5" component='h5'>
+                        MARÃO ENTRETERIMENTO, CULTURA E COMÉRCIO VAGERISTA DE REVISTAS, LIVROS, BRINQUEDOS, DVDS E JORNAIS LTDA</Typography>
                     <Typography variant="overline" component='p' gutterBottom>
                         Estagiário em desenvolvimento java •  Fev 2018 - Dez 2018
                         </Typography>

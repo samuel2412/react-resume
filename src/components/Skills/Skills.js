@@ -55,6 +55,10 @@ const Skills = props => {
                 value: '60%'
             },
             {
+                key: 'vuejs',
+                value: '60%'
+            },
+            {
                 key: 'javascript',
                 value: '60%'
             },
