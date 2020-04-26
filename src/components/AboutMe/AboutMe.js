@@ -66,7 +66,7 @@ const AboutMe = props => {
                         para o uso de Node.js no back-end. */}
                     </Typography>
                     <Typography variant="body1" component='p' gutterBottom>
-                        Atualmente trabalhando no setor de Real Estate Tech, construindo, mantendo e prestando consultoria de aplicações web e mobile utilizando VueJs.
+                        Atualmente trabalhando no setor de Real Estate Tech, construindo e mantendo aplicações web utilizando VueJs.
                     </Typography>
 
                     <Typography className={classes.about} variant='h5' gutterBottom>

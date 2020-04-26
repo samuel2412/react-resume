@@ -57,10 +57,10 @@ const Work = props => {
                         KC TECNOLOGIA, SERVIÇOS IMOBILIÁRIOS E DE INTERNET, EMPREENDIMENTOS E PARTICIPAÇOES LTDA
                         </Typography>
                     <Typography variant="overline" component='p' gutterBottom>
-                        Desenvolvedor de front-end •  Mar 2020 - o momento
+                        Desenvolvedor de front-end júnior •  Mar 2020 - o momento
                         </Typography>
                     <Typography variant="body1" component='p' gutterBottom>
-                        Desenvolvimento, manutenção e consultoria de aplicações web e mobile para o setor de Real Estate Tech.
+                        Desenvolvimento e manutenção de aplicações web para o setor de Real Estate Tech utilizando VueJS.
                     </Typography>
 
                     <Divider variant="middle" />
