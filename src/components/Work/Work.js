@@ -54,10 +54,22 @@ const Work = props => {
             <div className={classes.content}>
                 <div className={classes.text}>
                     <Typography className={classes.subtitle} variant="h5" component='h5'>
+                        TEGRA
+                        </Typography>
+                    <Typography variant="overline" component='p' gutterBottom>
+                        Desenvolvedor de front-end júnior •  Set 2020 - o momento
+                        </Typography>
+                    <Typography variant="body1" component='p' gutterBottom>
+                        Desenvolvimento e manutenção de aplicações web para cliente do setor bancário utilizando Angular.
+                    </Typography>
+
+                    <Divider variant="middle" />
+
+                    <Typography className={classes.subtitle} variant="h5" component='h5'>
                         KC TECNOLOGIA, SERVIÇOS IMOBILIÁRIOS E DE INTERNET, EMPREENDIMENTOS E PARTICIPAÇOES LTDA
                         </Typography>
                     <Typography variant="overline" component='p' gutterBottom>
-                        Desenvolvedor de front-end júnior •  Mar 2020 - o momento
+                        Desenvolvedor de front-end júnior •  Mar 2020 - Set 2020
                         </Typography>
                     <Typography variant="body1" component='p' gutterBottom>
                         Desenvolvimento e manutenção de aplicações web para o setor de Real Estate Tech utilizando VueJS.
